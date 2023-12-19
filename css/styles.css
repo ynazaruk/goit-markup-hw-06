@@ -205,6 +205,9 @@ body {
 
 /*================ MOBILE HEADER STYLES ===============*/
 
+.container {
+  max-width: 250px;
+}
 .hero {
   background-color: #2e2f42;
   background-image: linear-gradient(
@@ -439,6 +442,8 @@ body {
   .benefits-description {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-weight: 400;
+    min-width: 268px;
   }
 }
 
@@ -674,7 +679,7 @@ body {
 /*---------------------------FOOTER-------------------------*/
 .page-footer {
   background-color: #2e2f42;
-  padding-top: 97.5px;
+  padding-top: 96px;
   padding-bottom: 96px;
 }
 
@@ -808,10 +813,11 @@ body {
   margin-left: 16px;
 }
 
-/*================ TABLET OUR PORTFOLIO STYLES ===============*/
+/*================ TABLET FOOTER STYLES ===============*/
+
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 766x;
+    max-width: 584x;
   }
 
   .page-footer-container {
@@ -873,6 +879,7 @@ body {
   .description-footer {
     width: 264px;
     color: #f4f4fd;
+    margin-bottom: 0;
   }
   .social-media {
     width: 208px;
@@ -881,8 +888,6 @@ body {
     display: flex;
     gap: 16px;
     justify-content: flex-start;
-  }
-  .social-list-footer {
     margin-bottom: 0;
   }
 
